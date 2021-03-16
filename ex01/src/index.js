@@ -1,6 +1,6 @@
-function myTrueBoolean(){
-var result = (1 < 2); result.valueOf();
-return result
+function myTrueBoolean() {
+    var result = (1 < 2); result.valueOf();
+    return result
 };
 console.log(myTrueBoolean())
-module.exports=myTrueBoolean;
+module.exports = myTrueBoolean;
